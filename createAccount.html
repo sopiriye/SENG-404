@@ -19,91 +19,170 @@
   </header>
 
   <section>
-    <form action="" method="">
-      <div>
+    <form class="container" action="" method="">
+      <div class="form-all form-01">
         <h4>Bio Data</h4>
-        <label for="firstname"><b>First Name:</b></label>
-        <input type="text" placeholder="" name="firstname" id="firstname" required>
+        <div>
+          <label for="firstname">First Name:</label>
+          <input class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"type="text" placeholder="" name="firstname" id="firstname" required>
+        </div>
         
-        <label for="lastname"><b>Last Name:</b></label>
-        <input type="text" placeholder="" name="lastname" id="lastname" required>
+        <div>
+          <label for="lastname">Last Name:</label>
+          <input class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"type="text" placeholder="" name="lastname" id="lastname" required>
+        </div>
         
-        <label for="email"><b>Email:</b></label>
-        <input type="text" placeholder="" name="email" id="email" required>
+        <div>
+          <label for="email">Email:</label>
+          <input class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"type="text" placeholder="" name="email" id="email" required>
+        </div>
+
+        <div class="phone-sex">
+          <div>
+            <label for="phone">Phone:</label>
+            <input class="form-input-or-select-all phone-input"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all" type="number" placeholder="" name="email" id="email" required>
+          </div>
+          
+          <div>
+            <label for="sex">Sex:</label>
+            <select class="form-input-or-select-all"class="form-input-or-select-all"id="sex" name="sex">
+              <option value="" selected disabled></option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
 
         <div>
-          <label for="phone"><b>Phone:</b></label>
-          <input type="number" placeholder="" name="email" id="email" required>
-          
-          <label for="sex">Sex:</label>
-          <select id="sex" name="sex">
+          <label for="address">Address:</label>
+          <input class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"type="text" placeholder="" name="address" id="address" required>
+        </div>
+
+        <div class="city-state">
+          <div>
+            <label for="city">City:</label>
+            <input class="form-input-or-select-all input-city"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"class="form-input-or-select-all"type="text" placeholder="" name="city" id="city" required>
+          </div>
+        
+          <div>
+            <label for="state">State:</label>
+            <select class="form-input-or-select-all select-state"id="state" name="state">
+              <option value="" selected disabled></option>
+              <option value="abia">Abia</option>
+              <option value="adamawa">Adamawa</option>
+              <option value="akwaIbom">Akwa Ibom</option>
+              <option value="anambra">Anambra</option>
+              <option value="bauchi">Bauchi</option>
+              <option value="bayelsa">Bayelsa</option>
+              <option value="benue">Benue</option>
+              <option value="borno">Borno</option>
+              <option value="crossRiver">Cross River</option>
+              <option value="delta">Delta</option>
+              <option value="ebonyi">Ebonyi</option>
+              <option value="edo">Edo</option>
+              <option value="ekiti">Ekiti</option>
+              <option value="enugu">Enugu</option>
+              <option value="fct">Federal Capital Territory</option>
+              <option value="gombe">Gombe</option>
+              <option value="imo">Imo</option>
+              <option value="jigawa">Jigawa</option>
+              <option value="kaduna">Kaduna</option>
+              <option value="kano">Kano</option>
+              <option value="katsina">Katsina</option>
+              <option value="kebbi">Kebbi</option>
+              <option value="kogi">Kogi</option>
+              <option value="kwara">Kwara</option>
+              <option value="lagos">Lagos</option>
+              <option value="nasarawa">Nasarawa</option>
+              <option value="niger">Niger</option>
+              <option value="ogun">Ogun</option>
+              <option value="ondo">Ondo</option>
+              <option value="osun">Osun</option>
+              <option value="oyo">Oyo</option>
+              <option value="plateau">Plateau</option>
+              <option value="rivers">Rivers</option>
+              <option value="sokoto">Sokoto</option>
+              <option value="taraba">Taraba</option>
+              <option value="yobe">Yobe</option>
+              <option value="zamfara">Zamfara</option>
+            </select>
+          </div>
+        </div>
+
+        <h4>Create Password</h4>
+
+        <div>
+          <label for="password">Password:</label>
+          <input class="form-input-or-select-all "type="password" placeholder="" name="password" id="password" required>
+        </div>
+
+        <div>
+          <label for="confirm-password">Confirm Password:</label>
+          <input class="form-input-or-select-all input-password" type="password" placeholder="" name="confirm-password" id="confirm-password" required>
+        </div>
+        
+      </div>
+
+      <div class="form-all form-02">
+        <h4>Academic Information</h4>
+
+        <div class="prefix-suffix">
+          <div>
+            <label for="prefix">Prefix:</label>
+            <select class="form-input-or-select-all" id="prefix" name="prefix">
+              <option value="" selected disabled></option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        
+          <div>
+            <label for="suffix">Suffix:</label>
+            <select class="form-input-or-select-all" id="suffix" name="suffix">
+              <option value="" selected disabled></option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="pref-role">Preferred Role:</label>
+          <select class="form-input-or-select-all" id="pref-role" name="pref-role">
             <option value="" selected disabled></option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
         </div>
 
-        <label for="address"><b>Address:</b></label>
-        <input type="text" placeholder="" name="address" id="address" required>
-
         <div>
-          <label for="city"><b>City:</b></label>
-          <input type="text" placeholder="" name="city" id="city" required>
-        
-          <label for="state">State:</label>
-          <select id="state" name="state">
-            <option value="" selected disabled>Select a state</option>
-            <option value="abia">Abia</option>
-            <option value="adamawa">Adamawa</option>
-            <option value="akwaIbom">Akwa Ibom</option>
-            <option value="anambra">Anambra</option>
-            <option value="bauchi">Bauchi</option>
-            <option value="bayelsa">Bayelsa</option>
-            <option value="benue">Benue</option>
-            <option value="borno">Borno</option>
-            <option value="crossRiver">Cross River</option>
-            <option value="delta">Delta</option>
-            <option value="ebonyi">Ebonyi</option>
-            <option value="edo">Edo</option>
-            <option value="ekiti">Ekiti</option>
-            <option value="enugu">Enugu</option>
-            <option value="fct">Federal Capital Territory</option>
-            <option value="gombe">Gombe</option>
-            <option value="imo">Imo</option>
-            <option value="jigawa">Jigawa</option>
-            <option value="kaduna">Kaduna</option>
-            <option value="kano">Kano</option>
-            <option value="katsina">Katsina</option>
-            <option value="kebbi">Kebbi</option>
-            <option value="kogi">Kogi</option>
-            <option value="kwara">Kwara</option>
-            <option value="lagos">Lagos</option>
-            <option value="nasarawa">Nasarawa</option>
-            <option value="niger">Niger</option>
-            <option value="ogun">Ogun</option>
-            <option value="ondo">Ondo</option>
-            <option value="osun">Osun</option>
-            <option value="oyo">Oyo</option>
-            <option value="plateau">Plateau</option>
-            <option value="rivers">Rivers</option>
-            <option value="sokoto">Sokoto</option>
-            <option value="taraba">Taraba</option>
-            <option value="yobe">Yobe</option>
-            <option value="zamfara">Zamfara</option>
+          <label for="study-level">Study Level:</label>
+          <select class="form-input-or-select-all" id="study-level" name="study-level">
+            <option value="" selected disabled></option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="masters">Masters</option>
+            <option value="phd">PHD</option>
           </select>
         </div>
 
-        <h4>Create Password</h4>
+        <div>
+          <label for="program">Program:</label>
+          <select class="form-input-or-select-all" id="program" name="program">
+            <option value="" selected disabled></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
 
-        <label for="repeat"><b>Password</b></label>
-        <input type="password" placeholder="" name="password" id="password" required>
-
-        <label for="psw-repeat"><b>Confirm Password</b></label>
-        <input type="password" placeholder="" name="confirm-password" id="confirm-password" required>
-        <hr>
+        <div>
+          <label for="discipline">Discipline:</label>
+          <select class="form-input-or-select-all" id="discipline" name="discipline">
+            <option value="" selected disabled></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
       </div>
-      
-      <div></div>
     </form>
   </section>
 
