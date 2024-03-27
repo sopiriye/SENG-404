@@ -7,7 +7,7 @@
     list-style: none;
 }
 
-body {
+body > .createAccount{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -27,7 +27,7 @@ header>a>img {
     height: 60px;
 }
 
-header {
+header > .createAccountMain{
     display: flex;
     align-items: center;
     margin-top: 45px;
@@ -86,4 +86,97 @@ section>form {
 
 .input-password {
     width: 137px;
+}
+
+
+/* dashboard (some from bootstrap) */
+.header-dashboard{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 90px;
+}
+
+.font-heading{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#name-purple{
+ color: #6C67FF;
+}
+
+#logo-purple{
+  color: #38008B;
+}
+
+.grid-dashboard-sec {
+  display: grid;
+  height: 415px;
+  width: 762px;
+  grid-template-rows: 193px 193px;
+  grid-template-columns: 249px 249px 249px;
+  gap: 24px 7px;
+}
+
+.main-inner-cont {
+  height: 192px;
+  width: 248px;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.big-numbs {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 54px;
+}
+
+.writeup-under-numb {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.right-side{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-side{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-right: 2px solid #38008B;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.only-sec{
+  display: flex;
+}
+
+li > a{
+  text-decoration: none;
+  color: black;
+}
+
+.left-side > div > h4, .left-side > div > h5{
+  color: #38008B;
+}
+
+.left-side > div > h5{
+  
 }
