@@ -180,3 +180,20 @@ li > a{
 .left-side > div > h5{
   
 }
+
+
+/* Index page css */
+.logo-index{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #38008B;
+}
+
+.wel-to-buhrec{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 10px;
+  font-size: ;
+}
